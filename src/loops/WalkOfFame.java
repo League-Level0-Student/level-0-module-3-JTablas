@@ -11,7 +11,7 @@ public class WalkOfFame {
 		Robot rob = new Robot();
 		rob.miniaturize();
 		rob.setX(10);
-		rob.setSpeed(10);
+		rob.setSpeed(10000);
 		rob.setPenWidth(10);
 		
 		for(int o=0;o<=10;o++){
@@ -20,6 +20,7 @@ public class WalkOfFame {
 		rob.move(100);
 		rob.turn(144);
 		}
+		rob.setRandomPenColor();
 		rob.penUp();
 		rob.turn(90);
 		rob.move(100);

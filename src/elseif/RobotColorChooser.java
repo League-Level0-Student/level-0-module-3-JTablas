@@ -30,14 +30,14 @@ public class RobotColorChooser {
 	} else{
 	rob.setRandomPenColor();
 	}
-	
-	
 	for(int p=0;p<=3;p++){
+
 	rob.move(100);
 	rob.turn(90);
-	}	//3. ask the user what color they would like the robot to draw
-	}	
-		//4. use an if/else statement to set the pen color that the user requested
+	}
+	//3. ask the user what color they would like the robot to draw
+
+	}	//4. use an if/else statement to set the pen color that the user requested
 
         //5. if the user doesn't enter anything, choose a random color
 
